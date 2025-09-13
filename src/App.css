@@ -1,0 +1,37 @@
+/* sayfa ortalama */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* ekran yüksekliği */
+  background-color: #1a1a1a;
+}
+
+/* kutu stili */
+.box {
+  width: 30%;
+  height: 30%;
+  padding: 2%;
+  background: white;
+  border-radius: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #1a1a1a;
+}
+
+.box-text{
+  font-size: 20px;
+  color: #F9FAFB;
+  font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* responsive: mobilde kutu daha geniş olsun */
+@media (max-width: 768px) {
+  .box {
+    width: 80%;
+    height: 30%;
+  }
+}
